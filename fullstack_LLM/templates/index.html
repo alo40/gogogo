@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Go Fullstack App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Send a Message</h1>
+    <form action="/submit" method="post">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+        
+        <label>Message:</label><br>
+        <textarea name="message" required></textarea><br><br>
+        
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
